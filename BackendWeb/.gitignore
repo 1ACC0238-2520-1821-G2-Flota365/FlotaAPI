@@ -1,0 +1,15 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+
+# Binarios y compilados
+bin/
+obj/
+publish/
+
+# Archivos de configuración locales
+appsettings.Development.json
