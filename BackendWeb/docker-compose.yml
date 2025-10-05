@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  backend:
+    build: .
+    container_name: backend_app
+    ports:
+      - "8080:8080" # expone el backend fuera del contenedor
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=server=mysql_db;port=3306;database=backend_f365_db;user=root;password=11223344
+    depends_on:
+      mysql_db:
+        condition: service_healthy
+    networks:
+      - appnet
+
+  mysql_db:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 11223344
+      MYSQL_DATABASE: backend_f365_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: 11223344
+    ports:
+      - "3307:3306"   # Conexión desde el host (localhost:3307)
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - appnet
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p11223344"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mysql_data:
+
+networks:
+  appnet:
+    driver: bridge
