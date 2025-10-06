@@ -40,7 +40,7 @@ using MySql.Data.MySqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// -------------------- JWT CONFIG --------------------
+// ================= JWT Config =================
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -58,7 +58,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// -------------------- DATABASE (MySQL) --------------------
+// ================= Database (MySQL) =================
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -70,8 +70,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     )
 );
 
-// -------------------- DEPENDENCY INJECTION --------------------
-
+// ================= Scoped Services =================
 // Fleet
 builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
 builder.Services.AddScoped<VehicleService>();
@@ -110,7 +109,7 @@ builder.Services.AddScoped<DashboardService>();
 builder.Services.AddScoped<IFleetRepository, FleetRepository>();
 builder.Services.AddScoped<FleetService>();
 
-// -------------------- CORS --------------------
+// ================= CORS Configuration =================
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
@@ -126,19 +125,18 @@ builder.Services.AddCors(options =>
     });
 });
 
-// -------------------- CONTROLLERS + SWAGGER --------------------
+// ================= Controllers + Swagger =================
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// -------------------- PORT --------------------
-// Forzar que la app escuche en el puerto asignado por Render/Docker/Koyeb
+// ================= Runtime Port =================
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 app.Urls.Add($"http://*:{port}");
 
-// -------------------- MIGRATIONS & SEED DATA --------------------
+// ================= Apply Migrations & Seed Data =================
 try
 {
     using var scope = app.Services.CreateScope();
@@ -146,10 +144,9 @@ try
     var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
 
     logger.LogInformation("Applying database migrations...");
-
     dbContext.Database.Migrate();
-
     logger.LogInformation("Database migrations applied successfully.");
+
     await SeedTestDataAsync(dbContext, logger);
 }
 catch (Exception ex)
@@ -158,35 +155,40 @@ catch (Exception ex)
     logger.LogError(ex, "❌ Error during database setup: {Message}", ex.Message);
 }
 
-// -------------------- SWAGGER UI --------------------
-app.UseSwagger();
-app.UseSwaggerUI(c =>
+// ================= Middleware =================
+if (app.Environment.IsDevelopment())
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fleet Management API V1");
-    c.RoutePrefix = "swagger"; // Accesible en /swagger
-});
-
-// -------------------- EXCEPTION HANDLING --------------------
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error");
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fleet API V1");
+    });
+    app.UseDeveloperExceptionPage();
 }
 else
 {
-    app.UseDeveloperExceptionPage();
+    app.UseSwagger(); // Para producción si quieres
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fleet API V1");
+    });
+    app.UseExceptionHandler("/Error");
 }
 
-// -------------------- MIDDLEWARE --------------------
+// Enable CORS
 app.UseCors("AllowFrontend");
+
+// Authentication & Authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-// -------------------- CONTROLLERS --------------------
+// Map controllers
 app.MapControllers();
 
+// Run app
 app.Run();
 
-// =================== HELPER METHODS ===================
+// ================= Helper Methods =================
 static async Task SeedTestDataAsync(AppDbContext context, ILogger logger)
 {
     try
@@ -200,20 +202,17 @@ static async Task SeedTestDataAsync(AppDbContext context, ILogger logger)
         {
             logger.LogInformation("Database is empty. Seeding with test data...");
 
-            // Vehicles
             context.Vehicles.AddRange(
                 new BackendWeb.FleetManagement.Domain.Vehicle("ABC123", "Toyota", "Hiace", 2020, 15000, 1, "Flota Principal"),
                 new BackendWeb.FleetManagement.Domain.Vehicle("XYZ789", "Ford", "Transit", 2019, 25000, 1, "Flota Principal"),
                 new BackendWeb.FleetManagement.Domain.Vehicle("DEF456", "Chevrolet", "Spark", 2021, 8000, 2, "Flota Secundaria")
             );
 
-            // Drivers
             context.Drivers.AddRange(
                 new BackendWeb.DriverManagement.Domain.Driver("DRV001", "Juan", "Pérez", "L12345678", DateTime.UtcNow.AddYears(2), "+51987654321", "juan@email.com", 5),
                 new BackendWeb.DriverManagement.Domain.Driver("DRV002", "María", "García", "L87654321", DateTime.UtcNow.AddYears(3), "+51123456789", "maria@email.com", 8)
             );
 
-            // Admin user
             var sampleUser = new BackendWeb.Auth.Domain.User(
                 "admin@flota365.com",
                 BCrypt.Net.BCrypt.HashPassword("admin123"),
