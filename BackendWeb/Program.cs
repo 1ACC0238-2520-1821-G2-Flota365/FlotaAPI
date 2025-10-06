@@ -40,7 +40,7 @@ using MySql.Data.MySqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// JWT Config
+// -------------------- JWT CONFIG --------------------
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -58,18 +58,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Database (MySQL)
+// -------------------- DATABASE (MySQL) --------------------
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 21)),
         mysqlOptions => mysqlOptions.EnableRetryOnFailure(
             maxRetryCount: 5,
-            maxRetryDelay: TimeSpan.FromSeconds(10),
-            errorNumbersToAdd: null
+            maxRetryDelay: TimeSpan.FromSeconds(10)
         )
     )
 );
+
+// -------------------- DEPENDENCY INJECTION --------------------
 
 // Fleet
 builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
@@ -109,7 +110,7 @@ builder.Services.AddScoped<DashboardService>();
 builder.Services.AddScoped<IFleetRepository, FleetRepository>();
 builder.Services.AddScoped<FleetService>();
 
-// CORS Configuration
+// -------------------- CORS --------------------
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
@@ -125,18 +126,19 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Controllers + Swagger
+// -------------------- CONTROLLERS + SWAGGER --------------------
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Forzar que la app escuche en el puerto asignado por Render/Docker
+// -------------------- PORT --------------------
+// Forzar que la app escuche en el puerto asignado por Render/Docker/Koyeb
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 app.Urls.Add($"http://*:{port}");
 
-// Apply migrations and seed data
+// -------------------- MIGRATIONS & SEED DATA --------------------
 try
 {
     using var scope = app.Services.CreateScope();
@@ -156,30 +158,35 @@ catch (Exception ex)
     logger.LogError(ex, "❌ Error during database setup: {Message}", ex.Message);
 }
 
-if (app.Environment.IsDevelopment())
+// -------------------- SWAGGER UI --------------------
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.UseDeveloperExceptionPage();
-}
-else
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fleet Management API V1");
+    c.RoutePrefix = "swagger"; // Accesible en /swagger
+});
+
+// -------------------- EXCEPTION HANDLING --------------------
+if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
 }
+else
+{
+    app.UseDeveloperExceptionPage();
+}
 
-// Enable CORS
+// -------------------- MIDDLEWARE --------------------
 app.UseCors("AllowFrontend");
-
-// Authentication & Authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
+// -------------------- CONTROLLERS --------------------
 app.MapControllers();
+
 app.Run();
 
-// =================== Helper methods ===================
-
-// Seed test data method
+// =================== HELPER METHODS ===================
 static async Task SeedTestDataAsync(AppDbContext context, ILogger logger)
 {
     try
@@ -193,17 +200,20 @@ static async Task SeedTestDataAsync(AppDbContext context, ILogger logger)
         {
             logger.LogInformation("Database is empty. Seeding with test data...");
 
+            // Vehicles
             context.Vehicles.AddRange(
                 new BackendWeb.FleetManagement.Domain.Vehicle("ABC123", "Toyota", "Hiace", 2020, 15000, 1, "Flota Principal"),
                 new BackendWeb.FleetManagement.Domain.Vehicle("XYZ789", "Ford", "Transit", 2019, 25000, 1, "Flota Principal"),
                 new BackendWeb.FleetManagement.Domain.Vehicle("DEF456", "Chevrolet", "Spark", 2021, 8000, 2, "Flota Secundaria")
             );
 
+            // Drivers
             context.Drivers.AddRange(
                 new BackendWeb.DriverManagement.Domain.Driver("DRV001", "Juan", "Pérez", "L12345678", DateTime.UtcNow.AddYears(2), "+51987654321", "juan@email.com", 5),
                 new BackendWeb.DriverManagement.Domain.Driver("DRV002", "María", "García", "L87654321", DateTime.UtcNow.AddYears(3), "+51123456789", "maria@email.com", 8)
             );
 
+            // Admin user
             var sampleUser = new BackendWeb.Auth.Domain.User(
                 "admin@flota365.com",
                 BCrypt.Net.BCrypt.HashPassword("admin123"),
