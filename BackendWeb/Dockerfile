@@ -3,18 +3,18 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copiar archivo de proyecto y restaurar dependencias
-COPY BackendWeb/BackendWeb.csproj ./BackendWeb/
-RUN dotnet restore ./BackendWeb/BackendWeb.csproj
+COPY BackendWeb.csproj ./
+RUN dotnet restore ./BackendWeb.csproj
 
 # Copiar el resto del código y compilar
-COPY BackendWeb ./BackendWeb
-WORKDIR /src/BackendWeb
+COPY . .
 RUN dotnet publish -c Release -o /app/publish
 
 # ====== STAGE 2: Runtime ======
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS runtime
 WORKDIR /app
 
+# Configurar variables para Koyeb
 ENV DOTNET_EnableDiagnostics=0 \
     ASPNETCORE_URLS=http://+:8080
 
