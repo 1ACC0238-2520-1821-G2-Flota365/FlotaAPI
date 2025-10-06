@@ -1,0 +1,29 @@
+# ====== STAGE 1: Build ======
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copiar archivo de proyecto y restaurar dependencias
+COPY BackendWeb.csproj ./
+RUN dotnet restore
+
+# Copiar el resto del código y compilar
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
+
+# ====== STAGE 2: Runtime ======
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS runtime
+WORKDIR /app
+
+# Variables de entorno para optimización
+ENV DOTNET_EnableDiagnostics=0 \
+    ASPNETCORE_ENVIRONMENT=Development \
+    ASPNETCORE_URLS=http://+:8080
+
+# Copiar los artefactos compilados desde la fase de build
+COPY --from=build /app/publish .
+
+# Exponer puerto (Render usará PORT automáticamente)
+EXPOSE 8080
+
+# Arrancar la app
+ENTRYPOINT ["dotnet", "BackendWeb.dll"]

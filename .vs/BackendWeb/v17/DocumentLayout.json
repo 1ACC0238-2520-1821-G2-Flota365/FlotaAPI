@@ -1,0 +1,566 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\management\\domain\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\management\\domain\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\management\\infrastructure\\repositories\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\management\\infrastructure\\repositories\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\maintenance\\infrastructure\\repositories\\servicerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\maintenance\\infrastructure\\repositories\\servicerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\assignments\\application\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\assignments\\application\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\assignments\\infrastructure\\repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\assignments\\infrastructure\\repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\maintenance\\application\\services\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\maintenance\\application\\services\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\fleetmanagement\\infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\fleetmanagement\\infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\drivermanagement\\domain\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\drivermanagement\\domain\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\fleetmanagement\\interfaces\\rest\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\fleetmanagement\\interfaces\\rest\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\auth\\application\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\auth\\application\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\assignments\\interfaces\\rest\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\assignments\\interfaces\\rest\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\assignments\\domain\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\assignments\\domain\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\auth\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\auth\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\fleetmanagement\\domain\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\fleetmanagement\\domain\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\auth\\application\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\auth\\application\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\shared\\persistance\\efc\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\shared\\persistance\\efc\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\backendweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\backendweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\reporting\\application\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\reporting\\application\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\auth\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\auth\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\auth\\interfaces\\rest\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\auth\\interfaces\\rest\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\fleetmanagement\\application\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\fleetmanagement\\application\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\reporting\\interfaces\\rest\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\reporting\\interfaces\\rest\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\management\\interfaces\\rest\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\management\\interfaces\\rest\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\fleetmanagement\\application\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\fleetmanagement\\application\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\maintenance\\domain\\maintenanceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\maintenance\\domain\\maintenanceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\maintenance\\infrastructure\\repositories\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\maintenance\\infrastructure\\repositories\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\maintenance\\interfaces\\rest\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\maintenance\\interfaces\\rest\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\management\\application\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\management\\application\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\reporting\\infrastructure\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\reporting\\infrastructure\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\reporting\\domain\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\reporting\\domain\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|c:\\users\\user\\downloads\\flotaapi-main\\flotaapi-main\\backendweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5593992E-1656-4468-BF83-464FD2A9CDE6}|BackendWeb\\BackendWeb.csproj|solutionrelative:backendweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Program.cs",
+              "RelativeToolTip": "BackendWeb\\Program.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAOQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:52:47.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Infrastructure\\Repositories\\ServiceRecordRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Maintenance\\Infrastructure\\Repositories\\ServiceRecordRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Infrastructure\\Repositories\\ServiceRecordRepository.cs",
+              "RelativeToolTip": "BackendWeb\\Maintenance\\Infrastructure\\Repositories\\ServiceRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:53:08.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Infrastructure\\Repositories\\ManagerRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Management\\Infrastructure\\Repositories\\ManagerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Infrastructure\\Repositories\\ManagerRepository.cs",
+              "RelativeToolTip": "BackendWeb\\Management\\Infrastructure\\Repositories\\ManagerRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:17:29.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Domain\\Manager.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Management\\Domain\\Manager.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Domain\\Manager.cs",
+              "RelativeToolTip": "BackendWeb\\Management\\Domain\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:45:28.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssignmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Infrastructure\\Repositories\\AssignmentRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Assignments\\Infrastructure\\Repositories\\AssignmentRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Infrastructure\\Repositories\\AssignmentRepository.cs",
+              "RelativeToolTip": "BackendWeb\\Assignments\\Infrastructure\\Repositories\\AssignmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:12:40.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\README.md",
+              "RelativeDocumentMoniker": "BackendWeb\\README.md",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\README.md",
+              "RelativeToolTip": "BackendWeb\\README.md",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-06T04:34:04.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Application\\AssignmentService.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Assignments\\Application\\AssignmentService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Application\\AssignmentService.cs",
+              "RelativeToolTip": "BackendWeb\\Assignments\\Application\\AssignmentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:44:05.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\appsettings.json",
+              "RelativeToolTip": "BackendWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T00:23:06.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MaintenanceService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Application\\Services\\MaintenanceService.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Maintenance\\Application\\Services\\MaintenanceService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Application\\Services\\MaintenanceService.cs",
+              "RelativeToolTip": "BackendWeb\\Maintenance\\Application\\Services\\MaintenanceService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:51:34.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\FleetManagement\\Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeToolTip": "BackendWeb\\FleetManagement\\Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:19:00.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\DriverManagement\\Domain\\Driver.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\DriverManagement\\Domain\\Driver.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\DriverManagement\\Domain\\Driver.cs",
+              "RelativeToolTip": "BackendWeb\\DriverManagement\\Domain\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:40:52.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Interfaces\\REST\\VehicleController.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\FleetManagement\\Interfaces\\REST\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Interfaces\\REST\\VehicleController.cs",
+              "RelativeToolTip": "BackendWeb\\FleetManagement\\Interfaces\\REST\\VehicleController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:21:47.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Application\\DTOs\\AuthDto.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Auth\\Application\\DTOs\\AuthDto.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Application\\DTOs\\AuthDto.cs",
+              "RelativeToolTip": "BackendWeb\\Auth\\Application\\DTOs\\AuthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T00:26:07.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssignmentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Interfaces\\REST\\AssignmentController.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Assignments\\Interfaces\\REST\\AssignmentController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Interfaces\\REST\\AssignmentController.cs",
+              "RelativeToolTip": "BackendWeb\\Assignments\\Interfaces\\REST\\AssignmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T00:26:13.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Domain\\Assignment.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Assignments\\Domain\\Assignment.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Assignments\\Domain\\Assignment.cs",
+              "RelativeToolTip": "BackendWeb\\Assignments\\Domain\\Assignment.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:43:21.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Auth\\Domain\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Domain\\User.cs",
+              "RelativeToolTip": "BackendWeb\\Auth\\Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:44:59.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Domain\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\FleetManagement\\Domain\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Domain\\IVehicleRepository.cs",
+              "RelativeToolTip": "BackendWeb\\FleetManagement\\Domain\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:31:49.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Application\\AuthService.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Auth\\Application\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Application\\AuthService.cs",
+              "RelativeToolTip": "BackendWeb\\Auth\\Application\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:46:34.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Shared\\Persistance\\EFC\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Shared\\Persistance\\EFC\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Shared\\Persistance\\EFC\\AppDbContext.cs",
+              "RelativeToolTip": "BackendWeb\\Shared\\Persistance\\EFC\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:36:05.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BackendWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\BackendWeb.csproj",
+              "RelativeDocumentMoniker": "BackendWeb\\BackendWeb.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\BackendWeb.csproj",
+              "RelativeToolTip": "BackendWeb\\BackendWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-06T04:41:39.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Application\\ReportService.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Reporting\\Application\\ReportService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Application\\ReportService.cs",
+              "RelativeToolTip": "BackendWeb\\Reporting\\Application\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:16:21.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Auth\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "BackendWeb\\Auth\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:45:52.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Interfaces\\REST\\AuthController.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Auth\\Interfaces\\REST\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Auth\\Interfaces\\REST\\AuthController.cs",
+              "RelativeToolTip": "BackendWeb\\Auth\\Interfaces\\REST\\AuthController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:47:20.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VehicleDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Application\\DTOs\\VehicleDto.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\FleetManagement\\Application\\DTOs\\VehicleDto.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Application\\DTOs\\VehicleDto.cs",
+              "RelativeToolTip": "BackendWeb\\FleetManagement\\Application\\DTOs\\VehicleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:19:18.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Interfaces\\REST\\ReportController.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Reporting\\Interfaces\\REST\\ReportController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Interfaces\\REST\\ReportController.cs",
+              "RelativeToolTip": "BackendWeb\\Reporting\\Interfaces\\REST\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:16:44.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Interfaces\\REST\\ManagerController.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Management\\Interfaces\\REST\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Interfaces\\REST\\ManagerController.cs",
+              "RelativeToolTip": "BackendWeb\\Management\\Interfaces\\REST\\ManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:18:28.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Application\\Services\\VehicleService.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\FleetManagement\\Application\\Services\\VehicleService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\FleetManagement\\Application\\Services\\VehicleService.cs",
+              "RelativeToolTip": "BackendWeb\\FleetManagement\\Application\\Services\\VehicleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:31:51.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MaintenanceOrder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Domain\\MaintenanceOrder.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Maintenance\\Domain\\MaintenanceOrder.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Domain\\MaintenanceOrder.cs",
+              "RelativeToolTip": "BackendWeb\\Maintenance\\Domain\\MaintenanceOrder.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:49:14.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MaintenanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Infrastructure\\Repositories\\MaintenanceRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Maintenance\\Infrastructure\\Repositories\\MaintenanceRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Infrastructure\\Repositories\\MaintenanceRepository.cs",
+              "RelativeToolTip": "BackendWeb\\Maintenance\\Infrastructure\\Repositories\\MaintenanceRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:50:36.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MaintenanceController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Interfaces\\REST\\MaintenanceController.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Maintenance\\Interfaces\\REST\\MaintenanceController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Maintenance\\Interfaces\\REST\\MaintenanceController.cs",
+              "RelativeToolTip": "BackendWeb\\Maintenance\\Interfaces\\REST\\MaintenanceController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:52:17.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Application\\ManagerService.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Management\\Application\\ManagerService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Management\\Application\\ManagerService.cs",
+              "RelativeToolTip": "BackendWeb\\Management\\Application\\ManagerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:17:58.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Infrastructure\\Repositories\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Reporting\\Infrastructure\\Repositories\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Infrastructure\\Repositories\\ReportRepository.cs",
+              "RelativeToolTip": "BackendWeb\\Reporting\\Infrastructure\\Repositories\\ReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:15:38.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Domain\\Report.cs",
+              "RelativeDocumentMoniker": "BackendWeb\\Reporting\\Domain\\Report.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Reporting\\Domain\\Report.cs",
+              "RelativeToolTip": "BackendWeb\\Reporting\\Domain\\Report.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T00:44:55.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BackendWeb\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FlotaAPI-main\\FlotaAPI-main\\BackendWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BackendWeb\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T00:23:42.753Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
