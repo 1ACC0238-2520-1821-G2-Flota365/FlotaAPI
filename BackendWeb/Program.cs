@@ -65,7 +65,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         new MySqlServerVersion(new Version(8, 0, 21)),
         mysqlOptions => mysqlOptions.EnableRetryOnFailure(
             maxRetryCount: 5,
-            maxRetryDelay: TimeSpan.FromSeconds(10)
+            maxRetryDelay: TimeSpan.FromSeconds(10),
+            errorNumbersToAdd: null // CORRECCIÓN: parámetro obligatorio
         )
     )
 );
